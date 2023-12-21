@@ -44,9 +44,10 @@ EigenCAM is a technique that involves computing the first principle component of
 #### Simply clone this repository or just download the yolo_cam folder. You must have the yolo_cam folder in the same location as your notebook
 
 #### Import the libraries first:
+
 ```python
-from yolo_cam.eigen_cam import EigenCAM
-from yolo_cam.utils.image import show_cam_on_image, scale_cam_image
+from yolocam.eigen_cam import EigenCAM
+from yolocam.utils.image import show_cam_on_image, scale_cam_image
 ```
 
 #### Call the function and print the image

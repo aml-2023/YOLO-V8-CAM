@@ -2,10 +2,10 @@ import numpy as np
 import torch
 import ttach as tta
 from typing import Callable, List, Tuple
-from yolo_cam.activations_and_gradients import ActivationsAndGradients
-from yolo_cam.utils.svd_on_activations import get_2d_projection
-from yolo_cam.utils.image import scale_cam_image
-from yolo_cam.utils.model_targets import ClassifierOutputTarget
+from yolocam.activations_and_gradients import ActivationsAndGradients
+from yolocam.utils.svd_on_activations import get_2d_projection
+from yolocam.utils.image import scale_cam_image
+from yolocam.utils.model_targets import ClassifierOutputTarget
 
 
 class BaseCAM:
